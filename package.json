@@ -1,6 +1,6 @@
 {
-  "name": "enhance-dev-extension",
-  "displayName": "Enhance.dev",
+  "name": "vscode-enhance-snippets",
+  "displayName": "Enhance.dev Snippets",
   "description": "Snippets for building with Enhance.",
   "version": "0.0.1",
   "publisher": "enhance",
@@ -8,7 +8,7 @@
   "license": "Apache 2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/enhance-dev/vscode-enhance-dev-extension"
+    "url": "https://github.com/enhance-dev/vscode-enhance-snippets"
   },
   "scripts": {
     "publish": "vsce publish minor --githubBranch main"
@@ -35,6 +35,7 @@
     "vscode",
     "extension",
     "enhance",
-    "enhance.dev"
+    "enhance.dev",
+    "snippets"
   ]
 }
