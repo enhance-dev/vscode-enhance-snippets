@@ -1,0 +1,40 @@
+{
+  "name": "enhance-dev-extension",
+  "displayName": "Enhance.dev",
+  "description": "Snippets for building with Enhance.",
+  "version": "0.0.1",
+  "publisher": "enhance",
+  "icon": "images/fluff.png",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enhance-dev/vscode-enhance-dev-extension"
+  },
+  "scripts": {
+    "publish": "vsce publish minor --githubBranch main"
+  },
+  "engines": {
+    "vscode": "^0.10.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      }
+    ]
+  },
+  "keywords": [
+    "vscode",
+    "extension",
+    "enhance",
+    "enhance.dev"
+  ]
+}
