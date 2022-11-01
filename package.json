@@ -2,7 +2,7 @@
   "name": "vscode-enhance-snippets",
   "displayName": "Enhance.dev Snippets",
   "description": "Snippets for building with Enhance.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "enhance",
   "icon": "images/fluff.png",
   "license": "Apache 2.0",
